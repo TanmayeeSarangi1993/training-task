@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   http://www.springframework.org/schema/beans/spring-beans.xsd"
+	   default-init-method="ginit" default-destroy-method="gdestroy"
+	   >
+	   
+     	<bean class ="com.training.BeanPostProcess.EmployeeBeanProcessor"/>
+     	
+     	<bean class = "org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+     	<property name="Location">
+     	
+     	<value>Property.properties</value>
+     	</property>
+     	</bean>
+     	
+     	
+     	<!-- by default bean is created it will be singleton -->
+   <bean id = "employee"  class = "com.training.Employee.Employee" scope = "singleton" >
+ 
+   <property name = "empId" value ="${employee.empId}"/>
+   <property name = "empName" value ="${employee.empName}"/>
+     <property name = "empSal" value ="${employee.empSal}"/>
+   
+   
+   </bean>  	
+</beans>
