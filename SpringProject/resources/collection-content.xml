@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean id="questionBank"
+		class="com.trainings.collections.QuestionBank">
+
+
+		<property name="question"
+			value="Inheritence is available in ....."></property>
+
+
+		<property name="options">
+
+			<list>
+
+				<value>Java</value>
+				<value>C</value>
+				<value>C++</value>
+				<value>.Net</value>
+				<value>All</value>
+
+			</list>
+
+		</property>
+
+
+
+
+
+	</bean>
+
+
+	<bean id="addressSet" class="com.trainings.collections.AddressSet">
+
+
+		<property name="addresses">
+
+			<set>
+
+
+				<value>Pune, Kothrud </value>
+				<value>Pune, Kothrud </value>
+				<value>Pune, Wakad </value>
+				<value>Pune, Katraj </value>
+				<value>Pune, Swar gate </value>
+
+
+
+
+			</set>
+
+
+		</property>
+
+
+
+
+
+	</bean>
+
+
+
+	<bean id="accountMap" class="com.trainings.collections.AccountMap">
+
+
+		<property name="accountMap">
+
+			<map>
+
+				<entry key="Goutam" value="5000"></entry>
+				<entry key="Gouvinda" value="6000"></entry>
+				<entry key="Praveen" value="7000"></entry>
+				<entry key="Debi" value="8000"></entry>
+				<entry key="Sudev" value="9000"></entry>
+
+
+
+			</map>
+
+
+		</property>
+
+
+
+
+
+	</bean>
+
+
+
+	<bean id="myCollection"
+		class="com.trainings.collections.MyCollection" autowire="byName"></bean>
+
+
+
+</beans>
