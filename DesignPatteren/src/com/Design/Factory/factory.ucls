@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.Design.Factory.AbstractFactory" project="DesignPatteren" 
+    file="/DesignPatteren/src/com/Design/Factory/AbstractFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="167" x="997" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.Design.Factory.Maruti" project="DesignPatteren" 
+    file="/DesignPatteren/src/com/Design/Factory/Maruti.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="99" x="1681" y="374"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="3" language="java" name="com.Design.Factory.IVehicle" project="DesignPatteren" 
+    file="/DesignPatteren/src/com/Design/Factory/IVehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="147" x="1494" y="374"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="com.Design.Factory.car1" project="DesignPatteren" 
+    file="/DesignPatteren/src/com/Design/Factory/IVehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="147" x="1494" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.Design.Factory.ColorFactory" project="DesignPatteren" 
+    file="/DesignPatteren/src/com/Design/Factory/ColorFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="167" x="878" y="374"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.Design.Factory.Audi" project="DesignPatteren" 
+    file="/DesignPatteren/src/com/Design/Factory/Audi.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="99" x="1820" y="374"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.Design.Factory.Blue" project="DesignPatteren" 
+    file="/DesignPatteren/src/com/Design/Factory/IColor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="105" x="1204" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="com.Design.Factory.IColor" project="DesignPatteren" 
+    file="/DesignPatteren/src/com/Design/Factory/IColor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="83" width="114" x="1292" y="374"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="com.Design.Factory.FactoryClient" project="DesignPatteren" 
+    file="/DesignPatteren/src/com/Design/Factory/FactoryClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="124" x="244" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.Design.Factory.Red" project="DesignPatteren" 
+    file="/DesignPatteren/src/com/Design/Factory/IColor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="105" x="1349" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.Design.Factory.VehicleFactory" project="DesignPatteren" 
+    file="/DesignPatteren/src/com/Design/Factory/VehicleFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="167" x="1085" y="374"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.Design.Factory.FactoryProducer" project="DesignPatteren" 
+    file="/DesignPatteren/src/com/Design/Factory/FactoryProducer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="210" x="408" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.Design.Factory.BMW" project="DesignPatteren" 
+    file="/DesignPatteren/src/com/Design/Factory/BMW.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="99" x="1959" y="374"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="14" language="java" name="com.Design.Factory.CarName" project="DesignPatteren" 
+    file="/DesignPatteren/src/com/Design/Factory/CarName.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="135" x="658" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="15" language="java" name="com.Design.Factory.Client" project="DesignPatteren" 
+    file="/DesignPatteren/src/com/Design/Factory/Client.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="101" width="124" x="833" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="com.Design.Factory.Car" project="DesignPatteren" 
+    file="/DesignPatteren/src/com/Design/Factory/Car.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="145" x="1868" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="com.Design.Factory.Truck" project="DesignPatteren" 
+    file="/DesignPatteren/src/com/Design/Factory/IVehicle.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="137" width="147" x="1681" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="18">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <realization id="19">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <realization id="21">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <generalization id="22">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <generalization id="23">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <realization id="25">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <generalization id="26">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="16"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
